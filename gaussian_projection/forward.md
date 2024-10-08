@@ -69,10 +69,10 @@ $$
 
 The $\Sigma_i$ $2\times2$ upper-left submatrix (i.e. removing 3rd row and column) provides the 2D covariance matrix $\sigma$ of the gaussians projected on the image plane. Moreover, the center of the gaussians can be obtained from NDC coordinates as
 
-$$
+```math
     \textbf{\textit{x}}_p = 
     \left(\frac{(x_{ndc} + 1)w - 1}{2}, \frac{(y_{ndc} + 1)h - 1}{2} \right) 
-$$
+```
 
 ### Conic
 
